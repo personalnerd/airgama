@@ -1,0 +1,64 @@
+* {
+    font-family: 'Cabin', sans-serif;
+}
+
+@media (max-width: 576px) {
+    #formDatas {
+        display: none;
+    }
+  }
+
+
+header {    
+    z-index: 999;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    position: fixed;
+    height: 80px;
+
+    background: #F8F8F8;
+    background: -webkit-linear-gradient(to top, #F8F8F8, #fff);
+    background: linear-gradient(to top, #F8F8F8, #fff);
+}
+
+
+#conteudo {
+    padding-top: 120px;
+}
+
+h1 { 
+    font-weight: 700;
+}
+
+#quartos {
+    margin-top: 50px;
+}
+.quarto {
+    margin-bottom: 30px;
+}
+.foto {
+    margin-bottom: 10px;
+}
+
+.tipo {
+    color: #bbb;
+    border: 1px solid;
+    display: inline-block;
+    padding: 3px 13px;
+    margin-bottom: 5px;
+    border-radius: 100px;
+    font-size: .8em;
+}
+
+.nome_quarto {
+    margin-bottom: 5px;
+}
+
+.preco_por_noite {
+    margin-bottom: 5px;
+}
+
+.preco_total {
+    color: #bbb;
+    margin-bottom: 5px;
+}
+
